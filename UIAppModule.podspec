@@ -6,11 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Alejandro-mzrv/UIAppModule"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Jose Alejandro Ramirez Vergara" => "alejandro.ramirez@citi.com.mx" }
-
-  s.platform     = :ios, "13.0"
-  s.swift_version = "5.9"
-
-  s.source       = { :git => "https://github.com/Alejandro-mzrv/UIAppModule.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Alejandro-rmzv/UIAppModule.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
   s.swift_version    = '5.9'
